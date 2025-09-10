@@ -1,0 +1,14 @@
+[
+  {
+    "ID": 1,
+    "LocalizedName": "Air Quality",
+    "Category": "Fair",
+    "Value": 50
+  },
+  {
+    "ID": 2,
+    "LocalizedName": "UV Index",
+    "Category": "Low",
+    "Value": 1
+  }
+]

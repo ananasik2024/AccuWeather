@@ -1,0 +1,32 @@
+[
+  {
+    "EpochTime": 1704092400,
+    "WeatherText": "Cloudy",
+    "Temperature": {
+      "Metric": {
+        "Value": 2,
+        "Unit": "C"
+      }
+    }
+  },
+  {
+    "EpochTime": 1704088800,
+    "WeatherText": "Overcast",
+    "Temperature": {
+      "Metric": {
+        "Value": 1,
+        "Unit": "C"
+      }
+    }
+  },
+  {
+    "EpochTime": 1704085200,
+    "WeatherText": "Snow",
+    "Temperature": {
+      "Metric": {
+        "Value": 0,
+        "Unit": "C"
+      }
+    }
+  }
+]

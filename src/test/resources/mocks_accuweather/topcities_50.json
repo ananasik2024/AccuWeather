@@ -1,0 +1,26 @@
+[
+  {
+    "Key": "349727",
+    "LocalizedName": "New York",
+    "Country": {
+      "ID": "US",
+      "EnglishName": "United States"
+    }
+  },
+  {
+    "Key": "328328",
+    "LocalizedName": "London",
+    "Country": {
+      "ID": "GB",
+      "EnglishName": "United Kingdom"
+    }
+  },
+  {
+    "Key": "294021",
+    "LocalizedName": "Minsk",
+    "Country": {
+      "ID": "BY",
+      "EnglishName": "Belarus"
+    }
+  }
+]

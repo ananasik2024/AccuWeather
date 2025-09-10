@@ -1,0 +1,12 @@
+[
+  {
+    "LocalObservationDateTime": "2024-01-01T10:00:00+03:00",
+    "WeatherText": "Cloudy",
+    "Temperature": {
+      "Metric": {
+        "Value": 2.3,
+        "Unit": "C"
+      }
+    }
+  }
+]

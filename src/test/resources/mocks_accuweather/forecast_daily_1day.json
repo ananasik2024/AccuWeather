@@ -1,0 +1,26 @@
+{
+  "Headline": {
+    "Text": "Clouds and sun"
+  },
+  "DailyForecasts": [
+    {
+      "Date": "2024-01-01T07:00:00+03:00",
+      "Temperature": {
+        "Minimum": {
+          "Value": -3,
+          "Unit": "C"
+        },
+        "Maximum": {
+          "Value": 1,
+          "Unit": "C"
+        }
+      },
+      "Day": {
+        "IconPhrase": "Cloudy"
+      },
+      "Night": {
+        "IconPhrase": "Snow"
+      }
+    }
+  ]
+}

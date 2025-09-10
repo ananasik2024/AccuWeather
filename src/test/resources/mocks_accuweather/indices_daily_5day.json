@@ -1,0 +1,16 @@
+[
+  {
+    "Date": "2024-01-01",
+    "ID": 1,
+    "LocalizedName": "Air Quality",
+    "Category": "Fair",
+    "Value": 50
+  },
+  {
+    "Date": "2024-01-02",
+    "ID": 1,
+    "LocalizedName": "Air Quality",
+    "Category": "Good",
+    "Value": 40
+  }
+]

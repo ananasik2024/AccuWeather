@@ -1,0 +1,20 @@
+[
+  {
+    "Version": 1,
+    "Key": "328328",
+    "LocalizedName": "London",
+    "Country": {
+      "ID": "GB",
+      "EnglishName": "United Kingdom"
+    }
+  },
+  {
+    "Version": 1,
+    "Key": "60987",
+    "LocalizedName": "Londonderry",
+    "Country": {
+      "ID": "GB",
+      "EnglishName": "United Kingdom"
+    }
+  }
+]
