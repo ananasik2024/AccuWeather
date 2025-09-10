@@ -1,0 +1,651 @@
+{
+	"info": {
+		"_postman_id": "c9a97aa7-e00f-4f62-96dc-cf5245df63f4",
+		"name": "AccuWeather Study",
+		"description": "20 requests mirroring Rest-Assured tests",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "39134007",
+		"_collection_link": "https://www.postman.com/aviation-cosmologist-89514327/workspace/my-workspace/collection/39134007-c9a97aa7-e00f-4f62-96dc-cf5245df63f4?action=share&source=collection_link&creator=39134007"
+	},
+	"item": [
+		{
+			"name": "1) Cities search",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/locations/v1/cities/search?q=Minsk&apikey={{apiKey}}",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"locations",
+						"v1",
+						"cities",
+						"search"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "Minsk"
+						},
+						{
+							"key": "apikey",
+							"value": "{{apiKey}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "2) Cities autocomplete",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/locations/v1/cities/autocomplete?q=Lon&apikey={{apiKey}}",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"locations",
+						"v1",
+						"cities",
+						"autocomplete"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "Lon"
+						},
+						{
+							"key": "apikey",
+							"value": "{{apiKey}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "3) Geoposition search",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/locations/v1/cities/geoposition/search?q=53.9,27.5667&apikey={{apiKey}}",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"locations",
+						"v1",
+						"cities",
+						"geoposition",
+						"search"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "53.9,27.5667"
+						},
+						{
+							"key": "apikey",
+							"value": "{{apiKey}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "4) Postal codes search",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/locations/v1/postalcodes/search?q=10001&apikey={{apiKey}}",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"locations",
+						"v1",
+						"postalcodes",
+						"search"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "10001"
+						},
+						{
+							"key": "apikey",
+							"value": "{{apiKey}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "5) Top 50 cities",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/locations/v1/topcities/50?apikey={{apiKey}}",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"locations",
+						"v1",
+						"topcities",
+						"50"
+					],
+					"query": [
+						{
+							"key": "apikey",
+							"value": "{{apiKey}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "6) Current conditions (basic)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/currentconditions/v1/{{locationKey}}?apikey={{apiKey}}",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"currentconditions",
+						"v1",
+						"{{locationKey}}"
+					],
+					"query": [
+						{
+							"key": "apikey",
+							"value": "{{apiKey}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "7) Current conditions (details=true)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/currentconditions/v1/{{locationKey}}?details=true&apikey={{apiKey}}",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"currentconditions",
+						"v1",
+						"{{locationKey}}"
+					],
+					"query": [
+						{
+							"key": "details",
+							"value": "true"
+						},
+						{
+							"key": "apikey",
+							"value": "{{apiKey}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "8) Historical current conditions (6h)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/currentconditions/v1/{{locationKey}}/historical/6?apikey={{apiKey}}",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"currentconditions",
+						"v1",
+						"{{locationKey}}",
+						"historical",
+						"6"
+					],
+					"query": [
+						{
+							"key": "apikey",
+							"value": "{{apiKey}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "9) Historical current conditions (24h)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/currentconditions/v1/{{locationKey}}/historical/24?apikey={{apiKey}}",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"currentconditions",
+						"v1",
+						"{{locationKey}}",
+						"historical",
+						"24"
+					],
+					"query": [
+						{
+							"key": "apikey",
+							"value": "{{apiKey}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "10) Conditions for top cities (50)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/currentconditions/v1/topcities/50?apikey={{apiKey}}",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"currentconditions",
+						"v1",
+						"topcities",
+						"50"
+					],
+					"query": [
+						{
+							"key": "apikey",
+							"value": "{{apiKey}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "11) Daily forecast 1 day",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/forecasts/v1/daily/1day/{{locationKey}}?metric={{metric}}&language={{language}}&apikey={{apiKey}}",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"forecasts",
+						"v1",
+						"daily",
+						"1day",
+						"{{locationKey}}"
+					],
+					"query": [
+						{
+							"key": "metric",
+							"value": "{{metric}}"
+						},
+						{
+							"key": "language",
+							"value": "{{language}}"
+						},
+						{
+							"key": "apikey",
+							"value": "{{apiKey}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "12) Daily forecast 5 day",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/forecasts/v1/daily/5day/{{locationKey}}?metric={{metric}}&apikey={{apiKey}}",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"forecasts",
+						"v1",
+						"daily",
+						"5day",
+						"{{locationKey}}"
+					],
+					"query": [
+						{
+							"key": "metric",
+							"value": "{{metric}}"
+						},
+						{
+							"key": "apikey",
+							"value": "{{apiKey}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "13) Hourly forecast 12 hour",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/forecasts/v1/hourly/12hour/{{locationKey}}?metric={{metric}}&apikey={{apiKey}}",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"forecasts",
+						"v1",
+						"hourly",
+						"12hour",
+						"{{locationKey}}"
+					],
+					"query": [
+						{
+							"key": "metric",
+							"value": "{{metric}}"
+						},
+						{
+							"key": "apikey",
+							"value": "{{apiKey}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "14) Hourly forecast 24 hour",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/forecasts/v1/hourly/24hour/{{locationKey}}?metric={{metric}}&apikey={{apiKey}}",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"forecasts",
+						"v1",
+						"hourly",
+						"24hour",
+						"{{locationKey}}"
+					],
+					"query": [
+						{
+							"key": "metric",
+							"value": "{{metric}}"
+						},
+						{
+							"key": "apikey",
+							"value": "{{apiKey}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "15) Quarter-day forecast 1 day",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/forecasts/v1/quarterday/1day/{{locationKey}}?metric={{metric}}&apikey={{apiKey}}",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"forecasts",
+						"v1",
+						"quarterday",
+						"1day",
+						"{{locationKey}}"
+					],
+					"query": [
+						{
+							"key": "metric",
+							"value": "{{metric}}"
+						},
+						{
+							"key": "apikey",
+							"value": "{{apiKey}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "16) Indices 1 day",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/indices/v1/daily/1day/{{locationKey}}?apikey={{apiKey}}",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"indices",
+						"v1",
+						"daily",
+						"1day",
+						"{{locationKey}}"
+					],
+					"query": [
+						{
+							"key": "apikey",
+							"value": "{{apiKey}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "17) Indices 5 day",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/indices/v1/daily/5day/{{locationKey}}?apikey={{apiKey}}",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"indices",
+						"v1",
+						"daily",
+						"5day",
+						"{{locationKey}}"
+					],
+					"query": [
+						{
+							"key": "apikey",
+							"value": "{{apiKey}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "18) Alerts by location (200/204)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/alerts/v1/{{locationKey}}?apikey={{apiKey}}",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"alerts",
+						"v1",
+						"{{locationKey}}"
+					],
+					"query": [
+						{
+							"key": "apikey",
+							"value": "{{apiKey}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "19) Daily forecast 1 day (ru-ru)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/forecasts/v1/daily/1day/{{locationKey}}?language=ru-ru&metric={{metric}}&apikey={{apiKey}}",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"forecasts",
+						"v1",
+						"daily",
+						"1day",
+						"{{locationKey}}"
+					],
+					"query": [
+						{
+							"key": "language",
+							"value": "ru-ru"
+						},
+						{
+							"key": "metric",
+							"value": "{{metric}}"
+						},
+						{
+							"key": "apikey",
+							"value": "{{apiKey}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "20) Current conditions (perf & headers)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/currentconditions/v1/{{locationKey}}?apikey={{apiKey}}",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"currentconditions",
+						"v1",
+						"{{locationKey}}"
+					],
+					"query": [
+						{
+							"key": "apikey",
+							"value": "{{apiKey}}"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					"const ok = [200, 401, 403];",
+					"if (pm.info.requestName.toLowerCase().includes('alerts')) ok.push(204);",
+					"",
+					"pm.test('Status code is acceptable', () => {",
+					"  pm.expect(ok).to.include(pm.response.code);",
+					"});",
+					"",
+					"pm.test('Content-Type is JSON when 200', () => {",
+					"  if (pm.response.code === 200) {",
+					"    pm.response.to.have.header('Content-Type');",
+					"  }",
+					"});",
+					"",
+					"pm.test('Response time < 3000 ms', () => {",
+					"  pm.expect(pm.response.responseTime).to.be.below(3000);",
+					"});",
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "https://dataservice.accuweather.com"
+		},
+		{
+			"key": "apiKey",
+			"value": "PASTE_YOUR_KEY_HERE"
+		},
+		{
+			"key": "locationKey",
+			"value": "294021"
+		},
+		{
+			"key": "language",
+			"value": "ru-ru"
+		},
+		{
+			"key": "metric",
+			"value": "true"
+		}
+	]
+}
