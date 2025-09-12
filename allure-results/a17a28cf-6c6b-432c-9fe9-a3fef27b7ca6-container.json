@@ -1,0 +1,1 @@
+{"uuid":"a17a28cf-6c6b-432c-9fe9-a3fef27b7ca6","name":"20) Current conditions header+time checks","children":["7bca3586-74c8-40ea-8e18-a04f5dbe4422"],"befores":[{"name":"enableAllureLogging","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1757597427348,"stop":1757597427348}],"afters":[],"start":1757597427345,"stop":1757597427583}

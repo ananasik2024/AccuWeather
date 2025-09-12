@@ -1,0 +1,11 @@
+[
+  {
+    "Key": "349727",
+    "LocalizedName": "New York",
+    "Country": {
+      "ID": "US",
+      "EnglishName": "United States"
+    },
+    "PrimaryPostalCode": "10001"
+  }
+]

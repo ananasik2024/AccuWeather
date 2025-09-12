@@ -1,0 +1,15 @@
+{
+  "Version": 1,
+  "Key": "294021",
+  "Type": "City",
+  "LocalizedName": "Минск",
+  "EnglishName": "Minsk",
+  "Country": {
+    "ID": "BY",
+    "EnglishName": "Belarus"
+  },
+  "GeoPosition": {
+    "Latitude": 53.9,
+    "Longitude": 27.5667
+  }
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "Key": "349727",
+    "WeatherText": "Sunny",
+    "Temperature": {
+      "Metric": {
+        "Value": 25,
+        "Unit": "C"
+      }
+    }
+  },
+  {
+    "Key": "328328",
+    "WeatherText": "Cloudy",
+    "Temperature": {
+      "Metric": {
+        "Value": 16,
+        "Unit": "C"
+      }
+    }
+  }
+]

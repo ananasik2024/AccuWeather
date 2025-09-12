@@ -1,0 +1,1 @@
+{"uuid":"1256ddac-36cb-4057-a035-377f389d3bb9","name":"7) Current conditions with details","children":["08351a3f-8508-42e0-a101-f5cd22872186"],"befores":[{"name":"enableAllureLogging","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1757688777490,"stop":1757688777490}],"afters":[],"start":1757688777489,"stop":1757688777728}

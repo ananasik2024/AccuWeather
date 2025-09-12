@@ -1,0 +1,1 @@
+{"uuid":"f99d95cf-0e4e-4205-879a-75e195df21ab","name":"4) Postal codes search returns matches","children":["088cb428-8a23-47cc-983d-bbc00a45383a"],"befores":[{"name":"enableAllureLogging","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1757596992323,"stop":1757596992323}],"afters":[],"start":1757596992321,"stop":1757596992862}

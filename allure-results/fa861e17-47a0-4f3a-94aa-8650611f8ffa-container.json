@@ -1,0 +1,1 @@
+{"uuid":"fa861e17-47a0-4f3a-94aa-8650611f8ffa","name":"9) Historical current conditions (24h)","children":["e21006e0-0cd4-4b00-bebd-326e4c64599a"],"befores":[{"name":"enableAllureLogging","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1757597753886,"stop":1757597753886}],"afters":[],"start":1757597753885,"stop":1757597754533}

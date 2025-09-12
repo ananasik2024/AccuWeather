@@ -1,0 +1,72 @@
+{
+  "Headline": {
+    "Text": "Cold spell"
+  },
+  "DailyForecasts": [
+    {
+      "Date": "2024-01-01",
+      "Temperature": {
+        "Minimum": {
+          "Value": -3,
+          "Unit": "C"
+        },
+        "Maximum": {
+          "Value": 1,
+          "Unit": "C"
+        }
+      }
+    },
+    {
+      "Date": "2024-01-02",
+      "Temperature": {
+        "Minimum": {
+          "Value": -5,
+          "Unit": "C"
+        },
+        "Maximum": {
+          "Value": 0,
+          "Unit": "C"
+        }
+      }
+    },
+    {
+      "Date": "2024-01-03",
+      "Temperature": {
+        "Minimum": {
+          "Value": -4,
+          "Unit": "C"
+        },
+        "Maximum": {
+          "Value": 2,
+          "Unit": "C"
+        }
+      }
+    },
+    {
+      "Date": "2024-01-04",
+      "Temperature": {
+        "Minimum": {
+          "Value": -2,
+          "Unit": "C"
+        },
+        "Maximum": {
+          "Value": 3,
+          "Unit": "C"
+        }
+      }
+    },
+    {
+      "Date": "2024-01-05",
+      "Temperature": {
+        "Minimum": {
+          "Value": -1,
+          "Unit": "C"
+        },
+        "Maximum": {
+          "Value": 4,
+          "Unit": "C"
+        }
+      }
+    }
+  ]
+}

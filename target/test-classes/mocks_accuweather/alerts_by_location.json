@@ -1,0 +1,11 @@
+[
+  {
+    "AlertID": "AL-100500",
+    "Description": "Snow expected",
+    "Severity": "Moderate",
+    "Areas": [
+      "Minsk"
+    ],
+    "EffectiveDate": "2024-01-01T10:00:00+03:00"
+  }
+]

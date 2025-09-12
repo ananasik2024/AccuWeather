@@ -1,0 +1,1 @@
+{"uuid":"b8c33d85-cf8b-4eaf-b577-2faa25335240","name":"1) Cities search returns at least one result","children":["77bc9b16-27bb-489c-af70-69ead408d763"],"befores":[{"name":"enableAllureLogging","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1757596986584,"stop":1757596986585}],"afters":[],"start":1757596986564,"stop":1757596987759}

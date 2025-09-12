@@ -1,0 +1,37 @@
+[
+  {
+    "LocalObservationDateTime": "2024-01-01T10:00:00+03:00",
+    "WeatherText": "Cloudy",
+    "HasPrecipitation": false,
+    "PrecipitationType": null,
+    "Temperature": {
+      "Metric": {
+        "Value": 2.3,
+        "Unit": "C"
+      }
+    },
+    "RealFeelTemperature": {
+      "Metric": {
+        "Value": -1.0,
+        "Unit": "C"
+      }
+    },
+    "Pressure": {
+      "Metric": {
+        "Value": 1008,
+        "Unit": "mb"
+      }
+    },
+    "Wind": {
+      "Speed": {
+        "Metric": {
+          "Value": 12,
+          "Unit": "km/h"
+        }
+      },
+      "Direction": {
+        "Degrees": 270
+      }
+    }
+  }
+]
